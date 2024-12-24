@@ -1,7 +1,9 @@
 function FindProxyForURL(url, host) {
     var domainList = [
         "*whatsapp*",
-        "*outlook*"
+        "*outlook*",
+        "*adnxs*",
+        "*microsoft365*"
     ];
     for (var i = 0; i < domainList.length; i++) {
         if ( shExpMatch(url, domainList[i])){
