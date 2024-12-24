@@ -5,7 +5,8 @@ function FindProxyForURL(url, host) {
         "*adnxs*",
         "*microsoft365*",
         "*gmail*",
-        "*live*"
+        "*live*",
+        "*officeapps*"
     ];
     for (var i = 0; i < domainList.length; i++) {
         if ( shExpMatch(url, domainList[i])){
