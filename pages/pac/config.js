@@ -3,7 +3,8 @@ function FindProxyForURL(url, host) {
         "*whatsapp*",
         "*outlook*",
         "*adnxs*",
-        "*microsoft365*"
+        "*microsoft365*",
+        "*gmail*"
     ];
     for (var i = 0; i < domainList.length; i++) {
         if ( shExpMatch(url, domainList[i])){
