@@ -7,7 +7,8 @@ function FindProxyForURL(url, host) {
         "*gmail*",
         "*live*",
         "*officeapps*",
-        "*youtube*"
+        "*youtube*",
+        "*googlevideo*"
     ];
     for (var i = 0; i < domainList.length; i++) {
         if ( shExpMatch(url, domainList[i])){
