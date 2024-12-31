@@ -9,7 +9,8 @@ function FindProxyForURL(url, host) {
         "*officeapps*",
         "*youtube*",
         "*googlevideo*",
-        "*telegram*"
+        "*telegram*",
+        "*facebook.com*"
     ];
     for (var i = 0; i < domainList.length; i++) {
         if ( shExpMatch(url, domainList[i])){
