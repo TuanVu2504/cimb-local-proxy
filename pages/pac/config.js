@@ -12,7 +12,8 @@ function FindProxyForURL(url, host) {
         "*telegram*",
         "*facebook.com*",
         "*fbcdn.net*",
-        "*reddit*"
+        "*reddit*",
+        "*dev.to*"
     ];
     for (var i = 0; i < domainList.length; i++) {
         if ( shExpMatch(url, domainList[i])){
