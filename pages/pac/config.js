@@ -13,7 +13,8 @@ function FindProxyForURL(url, host) {
         "*facebook.com*",
         "*fbcdn.net*",
         "*reddit*",
-        "*dev.to*"
+        "*dev.to*",
+        "*yamldiff*"
     ];
     for (var i = 0; i < domainList.length; i++) {
         if ( shExpMatch(url, domainList[i])){
