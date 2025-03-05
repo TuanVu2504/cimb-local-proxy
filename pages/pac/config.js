@@ -14,6 +14,7 @@ function FindProxyForURL(url, host) {
         "*fbcdn.net*",
         "*reddit*",
         "*dev.to*",
+        "*enterprisedb*",
         "*yamldiff*"
     ];
     for (var i = 0; i < domainList.length; i++) {
