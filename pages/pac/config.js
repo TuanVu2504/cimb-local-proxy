@@ -15,6 +15,7 @@ function FindProxyForURL(url, host) {
         "*fbcdn.net*",
         "*reddit*",
         "*dev.to*",
+        "*api7*",
         "*enterprisedb*",
         "*yamldiff*"
     ];
