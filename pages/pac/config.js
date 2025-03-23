@@ -17,6 +17,7 @@ function FindProxyForURL(url, host) {
         "*dev.to*",
         "*api7*",
         "*enterprisedb*",
+        "*onecompiler*",
         "*yamldiff*"
     ];
     for (var i = 0; i < domainList.length; i++) {
