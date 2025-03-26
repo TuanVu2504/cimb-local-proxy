@@ -18,7 +18,8 @@ function FindProxyForURL(url, host) {
         "*api7*",
         "*enterprisedb*",
         "*onecompiler*", "*groovyide*",
-        "*yamldiff*"
+        "*yamldiff*",
+        "*scada.dkgas*"
     ];
     for (var i = 0; i < domainList.length; i++) {
         if ( shExpMatch(url, domainList[i])){
