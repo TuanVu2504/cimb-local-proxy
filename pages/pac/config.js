@@ -16,7 +16,7 @@ function FindProxyForURL(url, host) {
         "*reddit*",
         "*dev.to*",
         "*api7*",
-        "*enterprisedb*",
+        "*enterprisedb*", "*stackoverflow*",
         "*onecompiler*", "*groovyide*",
         "*cloudflare*", "*google-apis*", "*google-analytics*",
         "*yamldiff*",
