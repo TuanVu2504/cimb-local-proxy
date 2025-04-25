@@ -18,7 +18,7 @@ function FindProxyForURL(url, host) {
         "*api7*",
         "*enterprisedb*",
         "*onecompiler*", "*groovyide*",
-        "*cloudflare*", "*google*",
+        "*cloudflare*", "*google-apis*", "*google-analytics*",
         "*yamldiff*",
         "*scada.dkgas*"
     ];
