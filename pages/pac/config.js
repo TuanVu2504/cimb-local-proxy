@@ -15,7 +15,7 @@ function FindProxyForURL(url, host) {
         "*fbcdn.net*",
         "*reddit*",
         "*dev.to*",
-        "*api7*",
+        "*api7*", "*jenkins*",
         "*enterprisedb*", "*stackoverflow*",
         "*onecompiler*", "*groovyide*",
         "*cloudflare*", "*google-apis*", "*google-analytics*",
