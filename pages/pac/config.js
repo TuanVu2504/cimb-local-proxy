@@ -10,7 +10,7 @@ function FindProxyForURL(url, host) {
         "*youtube*",
         "*oracle*",
         "*googlevideo*",
-        "*telegram*",
+        "*telegram*","*amazonaws*",
         "*facebook.com*",
         "*fbcdn.net*",
         "*reddit*",
