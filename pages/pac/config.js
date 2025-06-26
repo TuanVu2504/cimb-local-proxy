@@ -13,7 +13,7 @@ function FindProxyForURL(url, host) {
         "*telegram*","*amazonaws*",
         "*facebook.com*",
         "*fbcdn.net*",
-        "*reddit*",
+        "*reddit*", "*gitlab*",
         "*dev.to*", "*jsdelivr*", "*postfix*",
         "*api7*", "*jenkins*", "*servanamanaged*",
         "*enterprisedb*", "*stackoverflow*",
