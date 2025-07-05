@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
     var domainList = [
-        "*whatsapp*",
+        "*whatsapp*", "*torproject*",
         "*outlook*",
         "*adnxs*",
         "*microsoft365*",
