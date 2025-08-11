@@ -8,7 +8,7 @@ function FindProxyForURL(url, host) {
         "*live*",
         "*officeapps*",
         "*youtube*", "*drools*",
-        "*oracle*",
+        "*oracle*", "*google*",
         "*googlevideo*",
         "*telegram*","*amazonaws*",
         "*facebook.com*",
