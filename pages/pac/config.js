@@ -19,7 +19,7 @@ function FindProxyForURL(url, host) {
         "*enterprisedb*", "*stackoverflow*",
         "*onecompiler*", "*groovyide*",
         "*cloudflare*", "*google-apis*", "*google-analytics*",
-        "*yamldiff*",
+        "*yamldiff*", "*wallpapersafari*",
         "*scada.dkgas*"
     ];
     for (var i = 0; i < domainList.length; i++) {
